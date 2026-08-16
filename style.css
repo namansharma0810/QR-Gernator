@@ -1,0 +1,98 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color:   #f0f0f0;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    background-color:rgb(30, 41, 59) ;
+    box-shadow: 5px 5px 10px gray;
+}
+nav button{
+    height: 40px;
+    width: 100px;
+    border: none;
+    color: rgb(30, 41, 59);
+    border-radius: 10px;
+    font-weight: bold;
+    cursor: pointer;
+
+}
+nav div{
+    color:  #f0f0f0;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.first{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40vh;
+    gap: 25px;
+}
+.inp input{
+    width: 300px;
+    height: 33px;
+    border: none;
+    border-radius: 10px;
+    padding: 3px;
+    font-size: 1.1rem;
+    color: rgb(30, 41, 59);
+    background-color: #e1e9e5;
+    border: 2px solid rgb(30, 41, 59);
+    box-shadow: 5px 5px 10px gray;
+
+}
+.ger button{
+    width: 150px;
+    height: 33px;
+    border: none;
+    border-radius: 10px;
+    background-color: rgb(30, 41, 59);
+    font-size: 1.2rem;
+    color: #D7D7A8;
+    cursor: pointer;
+    box-shadow: 5px 5px 10px gray;
+}
+.hidelast{
+    display: none;
+}
+.sec{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 15vh;
+    gap:15px;
+}
+.sec button{
+    width: 150px;
+    height: 36px;
+    border: none;
+    border-radius: 10px;
+    background-color: rgb(30, 41, 59);
+    font-size: 1.2rem;
+    color: #D7D7A8;
+    cursor: pointer;
+}
+.outer{
+    border: 2px solid rgb(30, 41, 59);
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px gray;
+}
+.outer img{
+    height: 300px;
+    width: 300px;
+}
+.hidefirst{
+    display: none;
+}
+
